@@ -1,0 +1,24 @@
+body {
+    /*https://www.w3.org/Style/Examples/007/center.en.html*/
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+}
+
+div.tiles {
+    /* https://www.youtube.com/watch?v=9zBsdzdE4sM */
+    display: grid;
+    grid-template-columns: repeat(5, 100px);
+    grid-auto-rows: 100px;
+    grid-gap: 20px;
+}
+
+.tile {
+    background-color: rgb(27, 62, 119);
+    color: white;
+}
+
+.clicked {
+    background-color: white;
+    color:rgb(27, 62, 119);
+}
